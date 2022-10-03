@@ -1,0 +1,15 @@
+{
+  "name": "GraphVisualization",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "http-server"
+  },
+  "dependencies": {
+    "vis-network": "^9.1.0"
+  },
+  "devDependencies": {
+    "http-server": "^13.0.1"
+  }
+}

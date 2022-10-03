@@ -1,0 +1,25 @@
+<html lang="en">
+    <head>
+        <script src="./vis-network.js"></script>
+        <script src="./data.js"></script>
+        <style>
+            #mynetwork {
+                width: 100%;
+                height: 95%;
+                border: 1px solid lightgray;
+            }
+        </style>
+
+    </head>
+    <body>
+        <p>Create a simple network with some nodes and edges.</p>
+
+        <div id="mynetwork"></div>
+        <script>
+            // create a network
+            var container = document.getElementById("mynetwork");
+            var options = {};
+            var network = new vis.Network(container, data, options);
+        </script>
+    </body>
+</html>
